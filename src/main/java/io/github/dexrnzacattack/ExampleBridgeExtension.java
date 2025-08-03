@@ -75,11 +75,6 @@ public class ExampleBridgeExtension extends Plugin implements IBridgeExtension {
     }
 
     @Override
-    public Semver getVersion() {
-        return new Semver("1.0.0");
-    }
-
-    @Override
     public ExtensionPriority getPriority() {
         return ExtensionPriority.HIGH;
     }
